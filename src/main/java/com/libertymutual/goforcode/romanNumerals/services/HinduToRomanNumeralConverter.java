@@ -8,8 +8,8 @@ public class HinduToRomanNumeralConverter {
 
 	public String convert(int input) {
 		String romanNumeral = "";
-		if (input < 1 || input > 3000) {
-			return "invalid number input";
+		if (input < 1 || input > 398) {
+			return "Input a number between 1 and 398";
 		}
 		while(input < 399 && input >= 100) {
 			romanNumeral += "C";
