@@ -27,7 +27,7 @@ public class HinduToRomanNumeralConverter {
 	        romanNumeral += "CD";
 	        input -= 400;
 	    }
-		while(input < 399 && input >= 100) {
+		while(input <= 399 && input >= 100) {
 			romanNumeral += "C";
 			input -= 100;
 		}
