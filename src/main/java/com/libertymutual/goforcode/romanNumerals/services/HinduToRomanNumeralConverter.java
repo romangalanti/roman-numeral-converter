@@ -13,7 +13,8 @@ public class HinduToRomanNumeralConverter {
 		}
 		while (input >= 1000) {
 	        romanNumeral += "M";
-	        input -= 1000;        }
+	        input -= 1000;        
+	    }
 	    while (input >= 900) {
 	        romanNumeral += "CM";
 	        input -= 900;
@@ -55,7 +56,7 @@ public class HinduToRomanNumeralConverter {
 		while(input < 4 && input > 0) {
 			romanNumeral += "I";
 			input -= 1;
-			}
+		}
 		
 		return romanNumeral;
 	}
